@@ -570,10 +570,10 @@ padding-top:0px !important;
 padding-bottom:0px !important;
 }
 body.responsive header#masthead hgroup .support-text,body.responsive header#masthead hgroup #header-sidebar{
-position:static;
-display:block;
 margin-top:30px;
 max-width:100%;
+position:static;
+display:none;
 }
 body.responsive header#masthead hgroup .support-text img,body.responsive header#masthead hgroup #header-sidebar img{
 max-width:100%;
