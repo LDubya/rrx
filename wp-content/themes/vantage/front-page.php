@@ -22,7 +22,8 @@ get_header(); ?>
         <article id="post-4" class="post-4 page type-page status-publish hentry post">
             <div class="entry-main">
                 <header class="entry-header">
-<!--                    <h1 class="entry-title"><a href="http://localhost:8888/wordpress/" title="Permalink to Home" rel="bookmark">Home</a></h1>-->
+<!--                                        <h1 class="entry-title"><a href="http://localhost:8888/wordpress/" title="Permalink to Home" rel="bookmark">Home</a></h1>-->
+                    <h1>&nbsp;</h1>
 
 
                 </header>
@@ -31,17 +32,15 @@ get_header(); ?>
                 <div class="entry-content">
                     <div class="panel-grid" id="pg-4-0">
                         <div class="panel-grid-cell" id="pgc-4-0-0">
-                            <div class="panel widget widget_circleicon-widget panel-first-child panel-last-child" id="panel-4-0-0-0">
-                                <div class="circle-icon-box circle-icon-position-top circle-icon-hide-box circle-icon-size-small">
-                                    <div class="circle-icon-wrapper">
-                                        <div class="circle-icon">
-                                            <div class="icon-edit"></div>
-                                        </div>
-                                    </div>
+                            <div class="panel widget widget_circleicon-widget panel-first-child panel-last-child" id="panel-4-0-0-0" style="max-width: 340px; margin: 0 auto;">
 
-                                    <h4>Editable Home Page</h4>
-                                    <p class="text">yonder</p>	<a href="#" class="more-button">Start Editing <i></i></a>
-                                </div>
+
+                                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=%40nasa" data-widget-id="499058453680119809">Tweets about "@nasa"</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
                             </div>
                         </div>
                         <div class="panel-grid-cell" id="pgc-4-0-1">
@@ -53,8 +52,15 @@ get_header(); ?>
                                         </div>
                                     </div>
 
-                                    <h4>Loads of Icons</h4>
-                                    <p class="text">This widget uses FontAwesome - giving you hundreds of icons. Or you could disable the icon and use your own image image. Great for testimonials.</p>	<a href="#" class="more-button">Example Button <i></i></a>
+                                    <h4>Quick High Resolution Protein Surface Analyses</h4>
+                                    <p class="text">We are enabling academic and industrial scientists to quickly and easily generate high resolution analyses of protein surfaces, in their efforts to find new treatments and cures for diseases.
+
+<!--                                        <br/><br/>The method that we are developing utilize a labeling technique to differentiate the protein’s amino acids, primarily based on their location in the protein’s 3-dimensional structure.-->
+
+                                        <br/><br/>Our method allows for both quantitative analysis of 3-dimensional protein structure, and identification of protein ligand binding interactions.
+                                    </p>
+
+                                    <a href="#" class="more-button">Learn More <i></i></a>
                                 </div>
                             </div>
                         </div>
