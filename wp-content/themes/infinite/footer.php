@@ -25,8 +25,8 @@
 			<div class="row">
 				<div class="span6">
 					<p>
-						Copyright &copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>. <?php _e('Powered by', 'infinite-framework'); ?> 
-						<a href="//wordpress.org" title="WordPress"><?php _e('WordPress', 'infinite-framework'); ?></a> &amp; <a href="http://ravichandrach.com" title="<?php _e('Infinite Theme', 'infinite-framework'); ?>"><?php _e('Infinite Theme', 'infinite-framework'); ?></a>
+						Copyright &copy; <?php echo date("Y"); ?> <?php bloginfo('name'); ?>. <?php //_e('Powered by', 'infinite-framework'); ?>
+						
 					</p>
 				</div>
 				<div class="span6 social-icon-container clearfix">

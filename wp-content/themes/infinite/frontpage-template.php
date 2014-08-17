@@ -6,20 +6,21 @@ get_header()
 ?>
 
 <div class="container-wrapper clearfix" id="main-content-container">
-		<div class="container">
+    <?php $post_meta = get_post_meta($post->ID) ?>
+
+    <?php if(function_exists('camera_meta_slideshow') && isset($post_meta['camera_meta_slideshow']) && $post_meta['camera_meta_slideshow'][0] != 'none' && $post_meta['camera_meta_slideshow'][0] != '') : ?>
+        <div class="row">
+
+                <?php echo camera_meta_slideshow($post_meta['camera_meta_slideshow'][0]); ?>
+
+        </div>
+    <?php endif; ?>
+    <div class="container">
 			<div class="row">
 
 				<div class="span12">
 				<article <?php post_class('post-content clearfix'); ?> id="post-<?php the_ID(); ?>">
-					<?php $post_meta = get_post_meta($post->ID) ?>
 
-					<?php if(function_exists('camera_meta_slideshow') && isset($post_meta['camera_meta_slideshow']) && $post_meta['camera_meta_slideshow'][0] != 'none' && $post_meta['camera_meta_slideshow'][0] != '') : ?>
-						<div class="row">
-							<div class="span12">
-								<?php echo camera_meta_slideshow($post_meta['camera_meta_slideshow'][0]); ?>
-							</div>
-						</div>
-					<?php endif; ?>
 				
 					<?php if(isset($post_meta['infinite_meta_show_services']) && $post_meta['infinite_meta_show_services'][0] == 'Yes') : ?>
 						<div class="row" style="margin-bottom:30px">

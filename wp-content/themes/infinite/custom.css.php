@@ -1,13 +1,22 @@
 <?php 
 
 
-	$link_color = of_get_option('link_color','#289dcc');
-	$link_color_dark = of_get_option('link_color_dark', '#333333');
-	$link_color_light = infinite_colourBrightness($link_color, 0.60);
-	$border_color = of_get_option('border_color','#e5e5e5');
-	$text_color = of_get_option('text_color', '#6a6767');
-	$dark_text = infinite_colourBrightness($text_color, -0.85);
-	$background = of_get_option('page_bg_image','');
+//	$link_color = of_get_option('link_color','#cc2828');
+//	$link_color_dark = of_get_option('link_color_dark', '#333333');
+//	$link_color_light = infinite_colourBrightness($link_color, 0.60);
+//	$border_color = of_get_option('border_color','#e5e5e5');
+//	$text_color = of_get_option('text_color', '#6a6767');
+//	$dark_text = infinite_colourBrightness($text_color, -0.85);
+//	$background = of_get_option('page_bg_image','');
+
+$link_color = '#cc2828';
+$link_color_dark = '#333333';
+$link_color_light = infinite_colourBrightness($link_color, 0.60);
+$border_color = '#e5e5e5';
+$text_color = '#6a6767';
+$dark_text = infinite_colourBrightness($text_color, -0.85);
+$background = of_get_option('page_bg_image','');
+
 ?>
 <style type="text/css">
 
