@@ -43,6 +43,7 @@ get_header(); ?>
 
                             </div>
                         </div>
+
                         <div class="panel-grid-cell" id="pgc-4-0-1">
                             <div class="panel widget widget_circleicon-widget panel-first-child panel-last-child" id="panel-4-0-1-0">
                                 <div class="circle-icon-box circle-icon-position-top circle-icon-hide-box circle-icon-size-small">
@@ -53,17 +54,18 @@ get_header(); ?>
                                     </div>
 
                                     <h4>Quick High Resolution Protein Surface Analyses</h4>
-                                    <p class="text">We are enabling academic and industrial scientists to quickly and easily generate high resolution analyses of protein surfaces, in their efforts to find new treatments and cures for diseases.
+                                    <p class="text">We are enabling academic and industrial scientists to quickly and easily generate high resolution analyses of protein surfaces.
 
 <!--                                        <br/><br/>The method that we are developing utilize a labeling technique to differentiate the protein’s amino acids, primarily based on their location in the protein’s 3-dimensional structure.-->
 
-                                        <br/><br/>Our method allows for both quantitative analysis of 3-dimensional protein structure, and identification of protein ligand binding interactions.
+                                        <br/><br/>Our method allows for both quantitative analysis of 3-dimensional protein structure, and identification of protein ligand binding interactions. Our method assists efforts to find new treatments and cures for diseases.
                                     </p>
 
                                     <a href="#" class="more-button">Learn More <i></i></a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="panel-grid-cell" id="pgc-4-0-2">
                             <div class="panel widget widget_circleicon-widget panel-first-child panel-last-child" id="panel-4-0-2-0">
                                 <div class="circle-icon-box circle-icon-position-top circle-icon-hide-box circle-icon-size-small">
@@ -79,19 +81,21 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="panel-grid" id="pg-4-1">
-                        <div class="panel-row-style-wide-grey panel-row-style">
-                            <div class="panel-grid-cell" id="pgc-4-1-0">
-                                <div class="panel widget widget_headline-widget panel-first-child panel-last-child" id="panel-4-1-0-0">
-                                    <h1>This Is A Headline Widget</h1>
-                                    <div class="decoration">
-                                        <div class="decoration-inside"></div>
-                                    </div>
-                                    <h3>You can customize it and put it where ever you want</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+<!--                    <div class="panel-grid" id="pg-4-1">-->
+<!--                        <div class="panel-row-style-wide-grey panel-row-style">-->
+<!--                            <div class="panel-grid-cell" id="pgc-4-1-0">-->
+<!--                                <div class="panel widget widget_headline-widget panel-first-child panel-last-child" id="panel-4-1-0-0">-->
+<!--                                    <h1>This Is A Headline Widget</h1>-->
+<!--                                    <div class="decoration">-->
+<!--                                        <div class="decoration-inside"></div>-->
+<!--                                    </div>-->
+<!--                                    <h3>You can customize it and put it where ever you want</h3>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
                 </div>
                 <!-- .entry-content -->
 
@@ -115,7 +119,7 @@ get_header(); ?>
 
 <?php // get_sidebar(); ?>
 
-<?php get_footer(); ?>
+<?php //get_footer(); ?>
 
 
-?>
+<!-- ONLY IF get_footer() is used ?> -->

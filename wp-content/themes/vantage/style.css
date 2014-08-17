@@ -626,7 +626,7 @@ margin-right:auto;
 ----------------------------------------------- */
 .main-navigation{
 margin:0 -35px;
-background:#343538;
+background:#FFFFFF;
 font-size:13px;
 position:relative;
 /* Font awesome icons */
@@ -665,7 +665,7 @@ position:relative;
 float:left;
 }
 .main-navigation ul li:hover > a{
-background:#00bcff;
+background:#343538;
 color:#FFFFFF;
 }
 .main-navigation ul li a{
@@ -716,7 +716,7 @@ display:block;
 .main-navigation a{
 display:block;
 text-decoration:none;
-color:#e2e2e2;
+color:#3a3b3e;
 font-weight:bold;
 }
 .main-navigation.sticky{
@@ -762,7 +762,7 @@ box-sizing:border-box;
 position:relative;
 display:block;
 cursor:pointer;
-background-color:#303134;
+background-color:#FFFFFF;
 width:59px;
 height:100%;
 }
@@ -784,7 +784,7 @@ margin-left:-8.5px;
 background: url('images/sprites-1-2.png') no-repeat -102px 0;
 }
 #search-icon #search-icon-icon:hover{
-background-color:#00bcff;
+background-color:#343538;
 }
 #search-icon #search-icon-icon:hover .icon{
 background: url('images/sprites-1-2.png') no-repeat 0 0;
@@ -1968,8 +1968,12 @@ clear:both;
 /* A medium sized icon */
 }
 .widget_circleicon-widget .circle-icon-box{
-text-align:center;
+text-align:left;
 position:relative;
+/* The different icon positions */
+}
+.widget_circleicon-widget .circle-icon-box h4{
+text-align:center;
 /* The different icon positions */
 }
 .widget_circleicon-widget .circle-icon-box.circle-icon-show-box{
@@ -2027,7 +2031,7 @@ margin-top:0;
 .widget_circleicon-widget .circle-icon-box p.text{
 margin:0;
 color:#5e5e5e;
-font-size:13px;
+font-size:15px;
 margin-bottom:10px;
 }
 .widget_circleicon-widget .circle-icon-box p.text:last-child{
